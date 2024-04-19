@@ -39,11 +39,49 @@
             text-decoration: none;
             border-radius: 50px;
         }
+        
+        
+        .img{
+            width: 55px;
+            height: 55px;
+            border-radius: 26px;
+
+        }
+
+        .signup{
+            background-color: white;
+            color: black;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .main{
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0 150px; 
+        }
+        .left{
+            flex: 1;
+        }
+
+        .mid{
+            flex: 2;
+            
+        }
+        
+            
+        
+        
+    
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">Logo</div>
+        <div class="logo"><img src="Logo.avif" alt="LOGO" class="img"></div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -51,12 +89,22 @@
                 <li><a href="#">Buy Now</a></li>
                 <li><a href="#">Sell Now</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="#" class="signup">Sign up</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-
+    <main class="main">
+         <div class="left">
+            <h2>Earth</h2>
+            <h2>Mercury</h2>
+            <h2>Jupiter</h2>
+         </div>
+         <div class="mid"></div>
+         <p>Earth, third planet from the Sun and the fifth largest planet in the solar system in terms of size and mass. Its single most outstanding feature is that its near-surface environments are the only places in the universe known to harbour life. <br>
+             It is designated by the symbol ♁. Earth’s name in English, the international language of astronomy, derives from Old English and Germanic words for ground and earth, and it is the only name for a planet of the solar system that does not come from Greco-Roman mythology. <br>
+              Earth is part of the "observable universe," the region of space that humans can actually or theoretically observe with the aid of technology. <br>
+              Unlike the observable universe, the universe is possibly <br></p>
+         <div class="right"></div>
     </main>
 </body>
 </html>
